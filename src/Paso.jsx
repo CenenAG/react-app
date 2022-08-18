@@ -1,3 +1,7 @@
+import { Greeting, UserCard } from "./Greeting";
+import Product from "./Product";
+import { Button } from "./Button";
+
 /* <UserCard
 name="Cenen"
 married={true}

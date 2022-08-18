@@ -1,12 +1,14 @@
 import PropTypes from 'prop-types'
 
-export function Button({text}){
+export function Button({text, name}){
     console.log(text)
     return <button>
-        {text}
+        {text}-{name}
     </button>
 }
 
 Button.propTypes = {
-    text: PropTypes.string
+    text: PropTypes.string.isRequired
 }
+
+Button.defaultProps = {name : 'Usuario'}
